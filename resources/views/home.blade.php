@@ -17,7 +17,7 @@
                     {{ __('Bienvenido: ') }}{{ Auth::user()->name }}{{ __('!') }}
                     <p>¡Mantente atento! Pronto tendremos nuevas funcionalidades y novedades para ti en nuestra página web.</p>
                     <p>Opciones:</p>
-                    <a href="{{route('inicio')}}">Volver a la página</a>
+                    <a href="http://safeplanet.up.railway.app">Volver a la página</a>
                 </div>
             </div>
         </div>
