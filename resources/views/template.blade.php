@@ -10,7 +10,7 @@
     <!-- Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Estilos personalizados -->
-    <link rel="stylesheet" href="{{asset('assets/estilos.css')}}">
+    <link rel="stylesheet" href="https://safeplanet.up.railway.app/assets/estilos.css">
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{asset('assets/images/icon.png')}}">
   </head>
