@@ -69,6 +69,17 @@
                             </div>
                         </div>
                     </form>
+                    <center>
+                        <p></p>
+                        {{ __('Yatienes cuenta?') }}
+                        <a class="btn btn-link" href="{{ route('login') }}">
+                            {{ __('Inicia sesión') }}
+                        </a>
+                    <a class="btn btn-link" href="{{ route('inicio') }}">
+                        {{ __('Volver a la página') }}
+                    </a>
+                    </center>
+                        
                 </div>
             </div>
         </div>

@@ -22,7 +22,9 @@ Route::get('/', function () {
 //Rutas de la pagina
 // Grupo de rutas publicas
 Route::controller(PageController::class)->group(function () {
-    Route::get('/',                 'inicio');
+    Route::get('/',                 'inicio')->name('inicio');
+    //Route::get('/inicio',           'inicio')->name('inicio');
+    
 });
 
 Auth::routes();

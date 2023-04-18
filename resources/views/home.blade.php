@@ -14,7 +14,10 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('Bienvenido: ') }}{{ Auth::user()->name }}{{ __('!') }}
+                    <p>¡Mantente atento! Pronto tendremos nuevas funcionalidades y novedades para ti en nuestra página web.</p>
+                    <p>Opciones:</p>
+                    <a href="{{route('inicio')}}">Volver a la página</a>
                 </div>
             </div>
         </div>

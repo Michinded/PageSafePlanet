@@ -1,0 +1,324 @@
+/* Paleta de colores */
+
+:root {
+    --primary-color: #0b8300;
+    --secondary-color: #2cdb00;
+    --bg-color: #000000;
+    --text-color: #000000;
+    --hover-color: #0ddb0d;
+    }
+    
+    /* Fuentes */
+    
+    body{
+    background-color: #c4c4c4;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--text-color);
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    }
+    /* Estilo del video */
+    video
+    {      
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+    }
+  
+    /* Estilos generales */
+    
+    a {
+    color: var(--primary-color);
+    text-decoration: none; /* quita el subrayado predeterminado */
+    }
+    
+    a:hover {
+    color: var(--hover-color);
+    text-decoration: underline; /* agrega subrayado al pasar el mouse */
+    }
+    
+    img {
+    max-width: 100%;
+    }
+    
+    .section {
+    margin: 80px 0;
+    }
+    
+    .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--primary-color);
+    }
+    
+    /* Estilos de la barra de navegación */
+    
+    .navbar {
+    background-color: var(--primary-color);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    }
+    
+    .navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    
+    .navbar-brand:hover {
+    color: #28a745;
+    }
+    
+    .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    
+    .nav-link:hover {
+    color: #28a745;
+    }
+    
+    .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 30px;
+    height: 30px;
+    }
+    
+    .navbar-toggler {
+    border: none;
+    outline: none;
+    }
+    
+    /* Estilos para la navegación */
+    
+    nav {
+    background-color: #f8f9fa;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    }
+  
+  /* Estilos para el encabezado */
+  
+  header {
+    background-image: url(https://picsum.photos/1200/400);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  /* Estilos del contenido principal */
+  
+  main {
+    padding: 20px;
+    }
+    
+    .card {
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0px 10px 30px rgba(255, 1, 1, 1.2);
+    }
+    
+    .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--text-color);
+    }
+    
+    .card-text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--text-color);
+    }
+    
+    .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color); /* Se agrega punto y coma faltante */
+    color: #ffffff;
+    }
+    
+    .btn-primary:hover {
+    background-color: var(--hover-color); /* Se utiliza el color de hover definido anteriormente */
+    border-color: var(--hover-color);
+    color: #ffffff;
+    }
+    
+    /* Estilos para el formulario */
+    
+    form {
+    background-color: #ffffff45;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgb(255, 255, 255);
+    border-radius: 5px;
+    }
+    
+    label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: var(--text-color);
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    }
+    
+    input[type="submit"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: var(--hover-color);
+    }
+    
+  
+  /* Estilos para el pie de página */
+  
+  footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    .footer__title {
+      color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    }
+    
+    .footer__description {
+      color: #beb9b9;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    }
+    
+    .footer__contact {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    }
+    
+    .footer__contact li {
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .footer__contact i {
+    color: #28a745; 
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+    
+  }
+    
+    .footer__links {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;  
+   
+    }
+  
+  .footer__links li {
+    list-style: none;
+    margin-bottom: 10px;
+    }
+  
+  .footer__links a {
+    color: #fff;
+    text-decoration: none;
+    }
+  
+  .footer__links a:hover {
+    text-decoration: underline;
+    }
+  
+  .footer__social {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    }
+  
+  .footer__social li {  
+    list-style: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    }
+  
+  .footer__social a {
+    color: #fff;
+    text-decoration: none;
+    }
+  
+  .footer__social a:hover {
+    text-decoration: underline;
+    }
+  
+  .footer__social i {
+    color: #28a745;
+    font-size: 20px;
+    text-align: center;
+  
+    }
+  
+  
+  
+  
+  
+  
+  
+    
+    
