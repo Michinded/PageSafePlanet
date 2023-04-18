@@ -13,8 +13,11 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
-    <!-- Scripts -->
+    <!-- Scripts 
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    -->
+    <link rel="preload" as="style" href="https://safeplanet.up.railway.app/build/assets/app-72df05f3.css" /><link rel="modulepreload" href="https://safeplanet.up.railway.app/build/assets/app-55f3e732.js" /><link rel="stylesheet" href="https://safeplanet.up.railway.app/build/assets/app-72df05f3.css" /><script type="module" src="https://safeplanet.up.railway.app/build/assets/app-55f3e732.js"></script>
+
 </head>
 <body>
     <div id="app">
