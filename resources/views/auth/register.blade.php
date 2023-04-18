@@ -76,7 +76,7 @@
                             {{ __('Inicia sesión') }}
                         </a>
                     <a class="btn btn-link" href="{{ route('inicio') }}">
-                        {{ __('Volver a la página') }}
+                        {{ __('Volver a la página de inicio') }}
                     </a>
                     </center>
                         
