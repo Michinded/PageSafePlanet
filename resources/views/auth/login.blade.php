@@ -64,6 +64,16 @@
                                 @endif
                                 
                             </div>
+                            <center>
+                                {{ __('No tienes cuenta?') }}
+                            </center>
+                           
+                                <a class="btn btn-link" href="{{ route('register') }}">
+                                    {{ __('Registrate') }}
+                                </a>
+                            <a class="btn btn-link" href="{{ route('inicio') }}">
+                                {{ __('Volver a la página') }}
+                            </a>
                         </div>
                     </form>
                 </div>
