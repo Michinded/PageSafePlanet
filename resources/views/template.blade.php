@@ -12,7 +12,7 @@
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="https://safeplanet.up.railway.app/assets/estilos.css">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{asset('assets/images/icon.png')}}">
+    <link rel="shortcut icon" href="https://safeplanet.up.railway.app/assets/images/icon.png">
   </head>
   <body>
     <!-- Barra de navegación -->
