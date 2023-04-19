@@ -44,7 +44,18 @@
                       </div>  
                     </div>    
                   </section>
-
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <h2 class="section-title">
+                          Nuestro código de Ética
+                        </h2>
+                        <div class="embed-responsive embed-responsive-4by3">
+                          <embed class="embed-responsive-item" src="{{asset('assets/docs/Codigoetica.pdf')}}" type="application/pdf" width="100%" height="600px" download />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
           <section id="productos" class="section">
             <section id="productos" class="section">
     <div class="container">
