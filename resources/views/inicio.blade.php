@@ -50,9 +50,9 @@
                         <h2 class="section-title">
                           Nuestro código de Ética
                         </h2>
-                        <div class="embed-responsive embed-responsive-4by3">
-                          <embed class="embed-responsive-item" src="https://safeplanet.up.railway.app/assets/docs/Codigoetica.pdf" type="application/pdf" width="100%" height="600px" download />
-                        </div>
+                          <h3 class="section-list">
+                            <a href="https://safeplanet.up.railway.app/assets/docs/codigo.pdf">Descargue o vea nuestro código de ética</a>
+                          </h3>
                       </div>
                     </div>
                   </div>
