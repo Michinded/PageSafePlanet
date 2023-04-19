@@ -87,7 +87,7 @@
                   <div class="card-body">
                     <h3 class="card-title">Termostato inteligente</h3>
                     <p class="card-text">El termostato inteligente permite controlar la temperatura del hogar de forma eficiente, lo que permite ahorrar energía y dinero en la factura de la luz y gas.</p>
-                    <a href="#" class="btn btn-primary">Comprar ahora</a>
+                    <a href="https://www.amazon.com.mx/Honeywell-TH9320WF5003-Termostato-Wi-Fi-Programable/dp/B0166QE9QC/ref=sr_1_3?adgrpid=1167682271498924&hvadid=72980355175377&hvbmt=be&hvdev=c&hvlocphy=151120&hvnetw=o&hvqmt=e&hvtargid=kwd-72980789926798%3Aloc-119&hydadcr=25228_13505196&keywords=termostato+inteligente&qid=1681867946&s=tools&sr=1-3&ufe=app_do%3Aamzn1.fos.66c34496-0d28-4d73-a0a1-97a8d87ec0b2" class="btn btn-primary">Comprar ahora</a>
                   </div>
                 </div>
               </div>
@@ -104,7 +104,7 @@
                     <div class="card-body">
                       <h3 class="card-title">Cómo ahorrar energía en el hogar</h3>
                       <p class="card-text">Si quieres reducir tu factura de la luz, este artículo te brinda consejos y recomendaciones para ahorrar energía en el hogar de manera eficiente.</p>
-                      <a href="#" class="btn btn-primary">Leer más</a>
+                      <a href="https://www.amazon.com.mx/s?k=smart+home+amazon&adgrpid=1167681831753292&hvadid=72980365620708&hvbmt=bb&hvdev=c&hvlocphy=151120&hvnetw=o&hvqmt=b&hvtargid=kwd-72980530093418%3Aloc-119&hydadcr=2170_13495718&tag=msndeskstdmx-20&ref=pd_sl_2y5csemoxm_b" class="btn btn-primary">Leer más</a>
                     </div>
                   </div>
                 </div>
